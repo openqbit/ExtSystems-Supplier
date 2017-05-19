@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Common", "0 Common", "{D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Presentation", "1 Presentation", "{FDBF0352-2A97-43DB-9812-14A0D71153C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Service", "2 Service", "{50BB350F-CA63-422E-8F3F-1D3CE1558237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 BLL", "3 BLL", "{9915039D-3390-4260-A18D-54DEC8EFFE04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 DAL", "4 DAL", "{D59A0351-DCF9-4025-A18C-71D6FB0C3B26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{A925F4E7-6AF7-4C65-AEEA-253EA16E31F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Common.Models", "OpenQbit.ExternalSupplier.Common.Models\OpenQbit.ExternalSupplier.Common.Models.csproj", "{DC7F4638-0983-419C-B18F-C90B3C2035ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7F4638-0983-419C-B18F-C90B3C2035ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7F4638-0983-419C-B18F-C90B3C2035ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7F4638-0983-419C-B18F-C90B3C2035ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7F4638-0983-419C-B18F-C90B3C2035ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC7F4638-0983-419C-B18F-C90B3C2035ED} = {D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}
+	EndGlobalSection
+EndGlobal
