@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.ExternalSupplier.Common.Models
 {
-    class Item
+    public class Item
     {
        
         public int ItemId { get; set; }

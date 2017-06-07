@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{A925F4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Common.Models", "OpenQbit.ExternalSupplier.Common.Models\OpenQbit.ExternalSupplier.Common.Models.csproj", "{DC7F4638-0983-419C-B18F-C90B3C2035ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Service.WebApi", "OpenQbit.ExternalSupplier.Service.WebApi\OpenQbit.ExternalSupplier.Service.WebApi.csproj", "{FB5D4AA8-4BF2-47F4-82CA-67849E07479A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Dal.DataAccess", "OpenQbit.ExternalSupplier.Dal.DataAccess\OpenQbit.ExternalSupplier.Dal.DataAccess.csproj", "{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +31,21 @@ Global
 		{DC7F4638-0983-419C-B18F-C90B3C2035ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC7F4638-0983-419C-B18F-C90B3C2035ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC7F4638-0983-419C-B18F-C90B3C2035ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5D4AA8-4BF2-47F4-82CA-67849E07479A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5D4AA8-4BF2-47F4-82CA-67849E07479A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5D4AA8-4BF2-47F4-82CA-67849E07479A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5D4AA8-4BF2-47F4-82CA-67849E07479A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DC7F4638-0983-419C-B18F-C90B3C2035ED} = {D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}
+		{FB5D4AA8-4BF2-47F4-82CA-67849E07479A} = {50BB350F-CA63-422E-8F3F-1D3CE1558237}
+		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057} = {D59A0351-DCF9-4025-A18C-71D6FB0C3B26}
 	EndGlobalSection
 EndGlobal
