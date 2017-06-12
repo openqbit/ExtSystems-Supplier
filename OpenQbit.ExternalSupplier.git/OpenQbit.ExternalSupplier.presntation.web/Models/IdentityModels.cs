@@ -29,5 +29,9 @@ namespace OpenQbit.ExternalSupplier.presntation.web.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<OpenQbit.ExternalSupplier.Common.Models.Item> Items { get; set; }
+
+        public System.Data.Entity.DbSet<OpenQbit.ExternalSupplier.Common.Models.Customer> Customers { get; set; }
     }
 }
