@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Common", "0 Common", "{D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}"
 EndProject
@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Dal.DataAccess", "OpenQbit.ExternalSupplier.Dal.DataAccess\OpenQbit.ExternalSupplier.Dal.DataAccess.csproj", "{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.presntation.web", "OpenQbit.ExternalSupplier.presntation.web\OpenQbit.ExternalSupplier.presntation.web.csproj", "{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,5 +53,6 @@ Global
 		{DC7F4638-0983-419C-B18F-C90B3C2035ED} = {D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}
 		{FB5D4AA8-4BF2-47F4-82CA-67849E07479A} = {50BB350F-CA63-422E-8F3F-1D3CE1558237}
 		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057} = {D59A0351-DCF9-4025-A18C-71D6FB0C3B26}
+		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226} = {FDBF0352-2A97-43DB-9812-14A0D71153C6}
 	EndGlobalSection
 EndGlobal
