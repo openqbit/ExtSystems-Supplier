@@ -33,5 +33,7 @@ namespace OpenQbit.ExternalSupplier.presntation.web.Models
         public System.Data.Entity.DbSet<OpenQbit.ExternalSupplier.Common.Models.Item> Items { get; set; }
 
         public System.Data.Entity.DbSet<OpenQbit.ExternalSupplier.Common.Models.Customer> Customers { get; set; }
+
+        public System.Data.Entity.DbSet<OpenQbit.ExternalSupplier.Common.Models.Order> Orders { get; set; }
     }
 }
