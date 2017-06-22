@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Common", "0 Common", "{D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}"
 EndProject
@@ -22,6 +22,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Dal.DataAccess", "OpenQbit.ExternalSupplier.Dal.DataAccess\OpenQbit.ExternalSupplier.Dal.DataAccess.csproj", "{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.presntation.web", "OpenQbit.ExternalSupplier.presntation.web\OpenQbit.ExternalSupplier.presntation.web.csproj", "{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Common.loc", "OpenQbit.ExternalSupplier.Common.loc\OpenQbit.ExternalSupplier.Common.loc.csproj", "{B2BE5C66-3DB4-4634-84BF-E2B77F8C581C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Dal.Contracts", "OpenQbit.ExternalSupplier.Dal.Contracts\OpenQbit.ExternalSupplier.Dal.Contracts.csproj", "{05556A4B-F7D8-4A40-B428-04ACD2CD7A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.BLL.bussiness", "OpenQbit.ExternalSupplier.BLL.bussiness\OpenQbit.ExternalSupplier.BLL.bussiness.csproj", "{0405E327-100B-41EF-89CE-511474950878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.BLL.Contracts", "OpenQbit.ExternalSupplier.BLL.Contracts\OpenQbit.ExternalSupplier.BLL.Contracts.csproj", "{444F3758-81F6-4A09-81CE-459DA099791C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.ExternalSupplier.Common.utills.log", "OpenQbit.ExternalSupplier.Common.utills.log\OpenQbit.ExternalSupplier.Common.utills.log.csproj", "{0400D145-EDA8-4C64-AF0B-0DAAABD33603}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +55,26 @@ Global
 		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BE5C66-3DB4-4634-84BF-E2B77F8C581C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BE5C66-3DB4-4634-84BF-E2B77F8C581C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BE5C66-3DB4-4634-84BF-E2B77F8C581C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BE5C66-3DB4-4634-84BF-E2B77F8C581C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05556A4B-F7D8-4A40-B428-04ACD2CD7A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05556A4B-F7D8-4A40-B428-04ACD2CD7A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05556A4B-F7D8-4A40-B428-04ACD2CD7A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05556A4B-F7D8-4A40-B428-04ACD2CD7A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0405E327-100B-41EF-89CE-511474950878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0405E327-100B-41EF-89CE-511474950878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0405E327-100B-41EF-89CE-511474950878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0405E327-100B-41EF-89CE-511474950878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444F3758-81F6-4A09-81CE-459DA099791C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444F3758-81F6-4A09-81CE-459DA099791C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444F3758-81F6-4A09-81CE-459DA099791C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444F3758-81F6-4A09-81CE-459DA099791C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0400D145-EDA8-4C64-AF0B-0DAAABD33603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0400D145-EDA8-4C64-AF0B-0DAAABD33603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0400D145-EDA8-4C64-AF0B-0DAAABD33603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0400D145-EDA8-4C64-AF0B-0DAAABD33603}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +84,10 @@ Global
 		{FB5D4AA8-4BF2-47F4-82CA-67849E07479A} = {50BB350F-CA63-422E-8F3F-1D3CE1558237}
 		{716F5A8B-1E16-4DD2-9CBB-CFAF2C8DD057} = {D59A0351-DCF9-4025-A18C-71D6FB0C3B26}
 		{5D7F9A1D-9A5D-4573-AD0D-4F94B7E4E226} = {FDBF0352-2A97-43DB-9812-14A0D71153C6}
+		{B2BE5C66-3DB4-4634-84BF-E2B77F8C581C} = {D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}
+		{05556A4B-F7D8-4A40-B428-04ACD2CD7A29} = {D59A0351-DCF9-4025-A18C-71D6FB0C3B26}
+		{0405E327-100B-41EF-89CE-511474950878} = {9915039D-3390-4260-A18D-54DEC8EFFE04}
+		{444F3758-81F6-4A09-81CE-459DA099791C} = {9915039D-3390-4260-A18D-54DEC8EFFE04}
+		{0400D145-EDA8-4C64-AF0B-0DAAABD33603} = {D8E161A5-F1AC-46E4-AE21-C497FC8F93CE}
 	EndGlobalSection
 EndGlobal
